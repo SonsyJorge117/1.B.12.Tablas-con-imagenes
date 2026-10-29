@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de tabla avanzada</title>
+    <style>
+        table {width: 75%;
+            border-collapse: collapse;
+            border: 3px solid grey;
+            margin-top: 10px;}
+        th, td {border: 2px solid grey;}
+        caption {caption-side: top;
+            text-align: center;}
+        .tachado {text-decoration: line-through;
+            color: #666;}
+    </style>
+</head>
+<body>
+    <h1>Resultado de la búsqueda</h1>
+    <table>
+        <caption>Resultado de la búsqueda</caption>
+        <thead>
+            <tr>
+                <th style="width: 25%;">Imagen</th>
+                <th>Datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="https://www.pccomponentes.com" target="_blank"></a>
+                        <img src="images/pc.png" alt="Portátil" title="Portátil - 3 GHz - 4 GB RAM">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.pccomponentes.com" target="_blank">Portátil - 3 GHz - 4 GB RAM</a><br><br>
+                    <a href="compra.html" target="_blank">Comprar</a>: <span class="tachado">2.990 €</span> <span class="precio">2.599 €</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.mediamarkt.es" target="_blank">
+                        <img src="images/videocamara.png" alt="Videocámara" title="Videocámara - Alta definición 1080p - 60 GB">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.mediamarkt.es" target="_blank">Videocámara - Alta definición 1080p - 60 GB</a><br><br>
+                    <a href="compra.html" target="_blank">Comprar</a>: <span class="tachado">1.099 €</span> <span class="precio">999 €</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.mediamarkt.es" target="_blank">
+                        <img src="images/tele.png" alt="Televisor" title="Televisor - 46&quot; - Full HD">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.mediamarkt.es" target="_blank">Televisor - 46" - Full HD</a><br><br>
+                    <a href="compra.html" target="_blank">Comprar</a>: <span class="tachado">1.999 €</span> <span class="precio">1.799 €</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.pccomponentes.com" target="_blank">
+                        <img src="images/movil.png" alt="Móvil" title="Móvil - 3 GHz - Wi-Fi - 8 GB">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.pccomponentes.com" target="_blank">Móvil - 3 GHz - Wi-Fi - 8 GB</a><br><br>
+                    <a href="compra.html" target="_blank">Comprar</a>: <span class="tachado">399 €</span> <span class="precio">349 €</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
